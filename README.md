@@ -1,14 +1,13 @@
 [![](https://jitpack.io/v/AdminFun/ScoreView.svg)](https://jitpack.io/#AdminFun/ScoreView)
 这是一个卡片文字控件，我暂时把它命名为计分器。
 
-### 一、效果
-![效果图](http://projectdoc.epetbar.com/Public/Uploads/2019-01-29/5c50185d8b9d3.png "效果图")
-
+### 一、使用效果
 <img src="http://projectdoc.epetbar.com/Public/Uploads/2019-01-29/5c50185d8b9d3.png" width = 30% height = 30% div align=center/>
 
 ### 二、使用
 
 ##### 1、XML使用
+
 ```
 <com.fun.widget.scroeview.ScoreView
     android:id="@+id/tag_transition_group"
@@ -29,22 +28,24 @@
 ```
 
 ##### 2、CODE使用
+
 ```
 ScoreView scoreView = findViewById(R.id.scoreView);
-        scoreView.setHorizontalInterval(5);
-        // 这里省略属性SET
-        scoreView.setText("99");
+scoreView.setHorizontalInterval(5);
+// 这里省略属性SET，根据自己的需求设置属性
+scoreView.setText("99");
+
 ```
 
 ##### 3、依赖
 
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
 
 ```
@@ -69,5 +70,5 @@ implementation 'com.github.AdminFun:ScoreView:1.0.0'
 |item_text_style   |color   |文本字体样式   |
 
 ### 四、版本
-##### 1、v1.0
-初版
+##### 1、v1.0.0
+这只是个初版，但已经能提供基本的功能了，本人已集成在自己的项目中使用。
