@@ -34,6 +34,20 @@ ScoreView scoreView = findViewById(R.id.scoreView);
         scoreView.setText("99");
 ```
 
+##### 3、依赖
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+```
+implementation 'com.github.AdminFun:ScoreView:1.0.0'
+```
 
 
 ### 三、属性
