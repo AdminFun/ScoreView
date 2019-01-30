@@ -4,6 +4,8 @@
 ### 一、效果
 ![效果图](http://projectdoc.epetbar.com/Public/Uploads/2019-01-29/5c50185d8b9d3.png "效果图")
 
+<img src="http://projectdoc.epetbar.com/Public/Uploads/2019-01-29/5c50185d8b9d3.png" width = 30% height = 30% div align=center/>
+
 ### 二、使用
 
 ##### 1、XML使用
