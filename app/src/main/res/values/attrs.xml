@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ScoreView">
+        <!--GroupView的属性-->
+        <attr name="score_horizontal_space" format="dimension" />
+        <attr name="score_text" format="string" />
+
+        <!--ItemView的属性-->
+        <attr name="item_horizontal_padding" format="dimension" />
+        <attr name="item_vertical_padding" format="dimension" />
+        <attr name="item_background_color" format="color" />
+        <attr name="item_background" format="reference" />
+
+        <attr name="item_border_width" format="dimension" />
+        <attr name="item_border_color" format="color" />
+        <attr name="item_corner_radius" format="dimension" />
+
+        <attr name="item_text_size" format="dimension" />
+        <attr name="item_text_color" format="color" />
+        <attr name="item_text_style" format="color" />
+
+    </declare-styleable>
+</resources>

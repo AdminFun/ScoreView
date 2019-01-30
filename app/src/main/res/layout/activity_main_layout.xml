@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.fun.widget.scoreview.ScoreView
+            android:id="@+id/tag_transition_group"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="#9A32CD"
+            android:gravity="center"
+            app:score_horizontal_space="5dp"
+            app:item_background_color="#FF7F50"
+            app:item_border_color="#D9D9D9"
+            app:item_border_width="0px"
+            app:item_corner_radius="3dp"
+            app:item_horizontal_padding="10dp"
+            app:item_text_color="@android:color/white"
+            app:item_text_size="50sp"
+            app:item_vertical_padding="8dp"
+            app:score_text="99" />
+
+        <com.fun.widget.scoreview.ScoreView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#9A32CD"
+            android:gravity="center"
+            android:padding="10dp"
+            app:score_horizontal_space="5dp"
+            app:item_background_color="#FF7F50"
+            app:item_border_color="#D9D9D9"
+            app:item_border_width="0px"
+            app:item_corner_radius="10dp"
+            app:item_horizontal_padding="3dp"
+            app:item_text_color="#9A32CD"
+            app:item_text_size="50sp"
+            app:item_vertical_padding="8dp"
+            app:score_text="100" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="加背景色是为了调试视图位置" />
+
+    <com.fun.widget.scoreview.ScoreView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#8B008B"
+        app:score_horizontal_space="5dp"
+        app:item_background_color="#FF7F50"
+        app:item_border_color="#D9D9D9"
+        app:item_border_width="0px"
+        app:item_corner_radius="3dp"
+        app:item_horizontal_padding="10dp"
+        app:item_text_color="@android:color/white"
+        app:item_text_size="20sp"
+        app:item_vertical_padding="8dp"
+        app:score_text="这是文字" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <com.fun.widget.scoreview.ScoreView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:score_horizontal_space="5dp"
+            app:item_background_color="#9A32CD"
+            app:item_border_color="#D9D9D9"
+            app:item_border_width="0px"
+            app:item_corner_radius="3dp"
+            app:item_horizontal_padding="3dp"
+            app:item_text_color="@android:color/white"
+            app:item_text_size="50sp"
+            app:item_vertical_padding="8dp"
+            app:score_text="10" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="."
+            android:textColor="#9A32CD"
+            android:textSize="40sp" />
+
+        <com.fun.widget.scoreview.ScoreView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:score_horizontal_space="1dp"
+            app:item_background_color="#9A32CD"
+            app:item_border_color="#D9D9D9"
+            app:item_border_width="0px"
+            app:item_corner_radius="3dp"
+            app:item_horizontal_padding="3dp"
+            app:item_text_color="@android:color/white"
+            app:item_text_size="30sp"
+            app:item_vertical_padding="8dp"
+            app:score_text="1" />
+    </LinearLayout>
+
+</LinearLayout>
